@@ -20,8 +20,3 @@ echo  "请选择要查询的虚拟机名称"
 select  name in `virsh list |awk -F" " '{print $2}'|grep -v "Name" |sort |uniq -u ` "exit" ; do
 kvm_hanshu
 done
---------------------- 
-作者：哼嘿哈嘿 
-来源：CSDN 
-原文：https://blog.csdn.net/weixin_44208042/article/details/89362058 
-版权声明：本文为博主原创文章，转载请附上博文链接！

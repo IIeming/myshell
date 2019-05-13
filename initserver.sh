@@ -1,11 +1,10 @@
-
 #!/bin/bash
 #安装必要的工具
 yum install vim -y
 yum install autofs -y
 yum install lrzsz -y
 yum install bash-completion -y
-yum install net-tools-2.0-0.24.20131004git.el7.x86_64
+yum install net-tools-2.0-0.24.20131004git.el7.x86_64 -y
 systemctl start autofs
 systemctl enable autofs
 #关闭防火墙

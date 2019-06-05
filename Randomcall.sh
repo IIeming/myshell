@@ -1,3 +1,4 @@
+#!/bin/bash
 read -p "请输入班级人数:" num
 PS3="继续请选择1,退出选择2,请输入:"
 randoms() {
